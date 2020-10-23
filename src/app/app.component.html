@@ -1,0 +1,86 @@
+<style>
+  .top-bar {
+    background: #616971;
+    height: 2.9rem;
+    padding: .5rem 0;
+  }
+
+  .top-bar a {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand img {
+    height: 4rem;
+  }
+
+  .navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+  .nav-item {
+    padding: .5rem;
+  }
+
+  .nav-link {
+    color: blue !important;
+  }
+
+  .nav-link.active,
+  .nav-link:hover {
+    color: #5b5555;
+  }
+</style>
+
+
+<!--top bar-->
+<div class="top-bar">
+  <div class="container">
+    <div class="col-12 text-right">
+      <p><a href="tel:0778645732">call for services</a></p>
+    </div>
+
+  </div>
+</div>
+<!--end top bar-->
+
+
+<!--navigation bar-->
+<nav class="navbar bg-light navbar-light navbar-expand-lg">
+  <div class="container">
+
+    <a routerLink="#" class="navbar-brand"><img src="assets/new.jpeg.jpg " alt="logo" title="logo"></a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a routerLink="#" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="#" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="#" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="#" class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
